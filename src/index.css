@@ -83,6 +83,10 @@ address {
   font-style: normal;
 }
 
+input {
+  border: none;
+}
+
 /* Animation keyframes for components */
 @keyframes appear {
   0% {
