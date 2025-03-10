@@ -1,0 +1,25 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-arrowDown" viewBox="0 0 32 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8667" d="M24 12.667l-8 8-8-8"></path>
+</symbol>
+<symbol id="icon-arrowUp" viewBox="0 0 32 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8667" d="M24 19.333l-8-8-8 8"></path>
+</symbol>
+<symbol id="icon-burgermenu" viewBox="0 0 32 32">
+<path fill="#e7f7f8" style="fill: var(--color2, #e7f7f8)" d="M4.39 9.33c0-0.52 0.42-0.94 0.94-0.94h21.33c0.52 0 0.94 0.42 0.94 0.94 0 0.51-0.42 0.93-0.94 0.93h-21.33c-0.52 0-0.94-0.42-0.94-0.93z"></path>
+<path fill="#e7f7f8" style="fill: var(--color2, #e7f7f8)" d="M4.39 16c0-0.52 0.42-0.94 0.94-0.94h21.33c0.52 0 0.94 0.42 0.94 0.94 0 0.51-0.42 0.93-0.94 0.93h-21.33c-0.52 0-0.94-0.42-0.94-0.93z"></path>
+<path fill="#e7f7f8" style="fill: var(--color2, #e7f7f8)" d="M4.39 22.66c0-0.51 0.42-0.93 0.94-0.93h21.33c0.52 0 0.94 0.42 0.94 0.93 0 0.52-0.42 0.94-0.94 0.94h-21.33c-0.52 0-0.94-0.42-0.94-0.94z"></path>
+</symbol>
+<symbol id="icon-check" viewBox="0 0 32 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.7333" d="M5.333 17.493l9.893 9.893 14-21.013"></path>
+</symbol>
+<symbol id="icon-cross" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M8.74 8.74c0.36-0.37 0.95-0.37 1.32 0l13.19 13.19c0.37 0.37 0.37 0.96 0 1.32-0.36 0.37-0.95 0.37-1.32 0l-13.19-13.19c-0.37-0.37-0.37-0.96 0-1.32z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M8.74 23.25c-0.37-0.36-0.37-0.95 0-1.32l13.19-13.19c0.37-0.37 0.96-0.37 1.32 0 0.37 0.36 0.37 0.95 0 1.32l-13.19 13.19c-0.37 0.37-0.96 0.37-1.32 0z"></path>
+</symbol>
+<symbol id="icon-longArrowUp" viewBox="0 0 32 32">
+<path fill="none" stroke="#35ff9e" style="stroke: var(--color3, #35ff9e)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.7647" d="M7.887 11.125l8.866-8.471 8.075 8.471M16.753 2.654v30.118"></path>
+</symbol>
+</defs>
+</svg>

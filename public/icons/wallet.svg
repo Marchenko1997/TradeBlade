@@ -1,0 +1,18 @@
+<svg width="56.000000" height="56.000000" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip185_293">
+			<rect id="Frame 21057" rx="0.000000" width="55.000000" height="55.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip185_293)">
+		<path id="Rectangle 61" d="M7.57 12.9L39.57 9.47C41.93 9.22 44 11.07 44 13.45L44 31.12C44 33.16 42.45 34.87 40.42 35.09L8.42 38.52C6.06 38.77 4 36.92 4 34.54L4 16.87C4 14.83 5.54 13.12 7.57 12.9Z" fill="#6A54FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<circle id="Ellipse 13" cx="27.000000" cy="14.000000" r="5.000000" fill="#ABF0FF" fill-opacity="1.000000"/>
+		<circle id="Ellipse 14" cx="39.000000" cy="5.000000" r="5.000000" fill="#ABF0FF" fill-opacity="1.000000"/>
+		<rect id="Rectangle 60" x="4.000000" y="16.000000" rx="4.000000" width="48.000000" height="36.000000" fill="#57E1FF" fill-opacity="1.000000"/>
+		<rect id="Rectangle 60" x="3.000000" y="15.000000" rx="4.000000" width="50.000000" height="38.000000" stroke="#030718" stroke-opacity="1.000000" stroke-width="2.000000"/>
+		<circle id="Ellipse 12" cx="45.000000" cy="34.000000" r="3.000000" fill="#030718" fill-opacity="1.000000"/>
+	</g>
+</svg>

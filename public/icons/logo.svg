@@ -1,0 +1,40 @@
+<svg width="127.111359" height="89.623535" viewBox="0 0 127.111 89.6235" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_185_245_dd" x="11.734978" y="8.211670" width="81.073341" height="44.752930" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="6.66667" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_185_248_dd" x="0.000000" y="0.000000" width="63.297760" height="75.541260" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="6.66667" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_185_249_dd" x="19.427582" y="14.023682" width="60.485748" height="75.599854" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="6.66667" result="effect_layerBlur_1"/>
+		</filter>
+	</defs>
+	<path id="Vector" d="M70.44 42.86L65.17 42.86L62.42 55.5L68.1 55.5C72.18 55.5 73.39 53.25 73.41 51.48C73.42 49.94 72.54 49.3 71.71 49.03L71.74 48.89C72.9 48.64 74.31 47.69 74.33 45.74C74.34 43.86 72.89 42.86 70.44 42.86ZM75.97 42.86L73.22 55.5L82.28 55.5L82.88 52.76L77.11 52.76L79.26 42.86L75.97 42.86ZM82.47 55.24L88.67 42.86L92.75 42.86L93.56 55.14L96.23 42.86L99.79 42.86C103.09 42.86 105.23 44.62 105.21 47.88C105.18 51.39 103.37 55.5 97.86 55.5L90.52 55.5L90.45 52.87L86.76 52.87L85.54 55.5L82.42 55.5L82.47 55.24ZM104.28 55.5L107.03 42.86L116.34 42.86L115.78 45.44L109.69 45.44L109.17 47.85L114.39 47.85L113.83 50.43L108.6 50.43L108.06 52.92L114.27 52.92L113.71 55.5L104.28 55.5ZM67.28 47.83L67.8 45.44L69.87 45.44C70.72 45.44 71.2 45.77 71.19 46.46C71.18 47.18 70.64 47.83 69.41 47.83L67.28 47.83ZM97.3 52.83L98.88 45.53L99.66 45.53C101.19 45.53 102.05 46.37 102.04 47.98C102.02 50.32 100.84 52.83 98.31 52.83L97.3 52.83ZM90.12 45.61L87.99 50.22L90.38 50.22L90.26 45.61L90.12 45.61ZM66.16 52.92L66.72 50.41L68.96 50.41C69.82 50.41 70.32 50.76 70.32 51.49C70.31 52.24 69.74 52.92 68.53 52.92L66.16 52.92Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Vector" d="M75.51 28.23L74.93 30.93L78.51 30.93L76.34 40.87L79.59 40.87L81.76 30.93L85.34 30.93L85.92 28.23L75.51 28.23ZM91.44 28.23L86.32 28.23L83.58 40.87L86.76 40.87L87.84 35.9L88.01 35.9L90.57 40.87L96.31 40.87L97.53 38.23L101.22 38.23L101.29 40.87L108.63 40.87C114.14 40.87 115.95 36.76 115.97 33.25C116 29.99 113.86 28.23 110.56 28.23L107 28.23L104.33 40.5L103.52 28.23L99.44 28.23L93.53 40.02L91.27 35.92C94.42 35.65 95.59 33.84 95.6 31.63C95.62 29.46 94.01 28.23 91.44 28.23ZM115.05 40.87L117.8 28.23L127.11 28.23L126.55 30.81L120.46 30.81L119.94 33.21L125.16 33.21L124.6 35.79L119.37 35.79L118.83 38.29L125.04 38.29L124.48 40.87L115.05 40.87ZM88.34 33.58L88.95 30.81L90.98 30.81C91.97 30.81 92.53 31.2 92.52 31.98C92.52 32.78 91.94 33.58 90.5 33.58L88.34 33.58ZM108.07 38.2L109.65 30.89L110.43 30.89C111.95 30.89 112.82 31.74 112.81 33.34C112.79 35.69 111.61 38.2 109.08 38.2L108.07 38.2ZM100.89 30.97L98.76 35.58L101.15 35.58L101.03 30.97L100.89 30.97Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Polygon 3" d="M20 20L40.58 55.54L43.29 50.84L30.22 28.2L20 20Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Polygon 5" d="M39.42 69.62L59.91 34.02L54.49 34.02L41.42 56.66L39.42 69.62Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Polygon 4" d="M72.8 28.21L31.73 28.27L34.44 32.96L60.58 32.96L72.8 28.21Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Polygon 19" d="M20 20L40.58 55.54L43.29 50.84L30.22 28.2L20 20Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Polygon 20" d="M39.42 69.62L59.91 34.02L54.49 34.02L41.42 56.66L39.42 69.62Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<g filter="url(#filter_185_245_dd)">
+		<path id="Polygon 23" d="M72.8 28.21L31.73 28.27L34.44 32.96L60.58 32.96L72.8 28.21Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<path id="Polygon 18" d="M44.03 48.16L36.29 34.75L51.77 34.75L44.03 48.16Z" fill="#57E1FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<g filter="url(#filter_185_248_dd)">
+		<path id="Polygon 21" d="M20 20L40.58 55.54L43.29 50.84L30.22 28.2L20 20Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g filter="url(#filter_185_249_dd)">
+		<path id="Polygon 22" d="M39.42 69.62L59.91 34.02L54.49 34.02L41.42 56.66L39.42 69.62Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<path id="Polygon 24" d="M72.8 28.21L31.73 28.27L34.44 32.96L60.58 32.96L72.8 28.21Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>

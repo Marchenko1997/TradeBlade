@@ -1,0 +1,38 @@
+<svg width="105.494873" height="101.075439" viewBox="0 0 105.495 101.075" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_554_601_dd" x="14.943115" y="10.106689" width="90.551758" height="45.849854" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="6.66667" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_554_604_dd" x="0.000000" y="0.000000" width="68.674194" height="83.742920" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="6.66667" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_554_605_dd" x="23.910889" y="17.260010" width="65.213135" height="83.815430" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="6.66667" result="effect_layerBlur_1"/>
+		</filter>
+	</defs>
+	<path id="Polygon 3" d="M20.5 20L45.83 63.74L49.17 57.96L33.08 30.1L20.5 20Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Polygon 5" d="M44.41 81.07L69.62 37.25L62.95 37.25L46.86 65.12L44.41 81.07Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Polygon 4" d="M85.49 30.1L34.94 30.17L38.27 35.95L70.45 35.95L85.49 30.1Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Polygon 19" d="M20.5 20L45.83 63.74L49.17 57.96L33.08 30.1L20.5 20Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Polygon 20" d="M44.41 81.07L69.62 37.25L62.95 37.25L46.86 65.12L44.41 81.07Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<g filter="url(#filter_554_601_dd)">
+		<path id="Polygon 23" d="M85.49 30.1L34.94 30.17L38.27 35.95L70.45 35.95L85.49 30.1Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<path id="Polygon 18" d="M49.58 54.66L40.05 38.15L59.11 38.15L49.58 54.66Z" fill="#57E1FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<g filter="url(#filter_554_604_dd)">
+		<path id="Polygon 21" d="M20 20L45.33 63.74L48.67 57.96L32.58 30.1L20 20Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g filter="url(#filter_554_605_dd)">
+		<path id="Polygon 22" d="M43.91 81.07L69.12 37.25L62.45 37.25L46.36 65.12L43.91 81.07Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<path id="Polygon 24" d="M84.99 30.1L34.44 30.17L37.77 35.95L69.95 35.95L84.99 30.1Z" fill="#5E47FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>
