@@ -16,10 +16,10 @@
 
  body {
   font-family: "IBM Plex Sans", sans-serif;
-  background: var(--bg-main);
+  background: var(--dark-background);
   font-size: 16px;
   font-weight: 400;
-  color: var(--color-primary-dark);
+  color: var(--light-background);
   overflow-x: hidden;
   height: 100%;
   margin: 0;
