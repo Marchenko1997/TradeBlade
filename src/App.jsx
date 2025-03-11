@@ -5,6 +5,7 @@ import './App.css'
 import Numbers from './components/Numbers/Numbers'
 import PastTransactions from "./components/PastTransactions/PastTransactions"
 import AboutCompany from './components/AboutCompany/AboutCompany'
+import Tarifs from './components/Tarifs/Tarifs'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Numbers />
         <PastTransactions />
         <AboutCompany />
+        <Tarifs />
       </Container>
     </>
   );
