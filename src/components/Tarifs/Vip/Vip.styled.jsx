@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const VipItem = styled.li`
+export const VipItem = styled.div`
   border-radius: 8px;
   background-color: var(--dark-background);
   color: var(--white);

@@ -6,6 +6,7 @@ import Numbers from './components/Numbers/Numbers'
 import PastTransactions from "./components/PastTransactions/PastTransactions"
 import AboutCompany from './components/AboutCompany/AboutCompany'
 import Tarifs from './components/Tarifs/Tarifs'
+import FAQ from './components/FAQ/FAQ'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <PastTransactions />
         <AboutCompany />
         <Tarifs />
+        <FAQ />
       </Container>
     </>
   );

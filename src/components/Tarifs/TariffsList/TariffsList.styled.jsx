@@ -6,7 +6,7 @@ export const TarrifsUL = styled.ul`
   flex-wrap: wrap;
 `;
 
-export const StandartTariff = styled.li`
+export const StandartTariff = styled.div`
   border-radius: 8px;
   border: 1px solid var(--primary-purple);
   padding: 16px;
