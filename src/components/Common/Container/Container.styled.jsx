@@ -4,7 +4,6 @@ export const ContainerMain = styled.div`
   max-width: 375px;
   width: 100vw;
   margin: 0 auto;
-  padding: 0 10px;
   overflow: hidden;
 
   @media screen and (min-width: 768px) {
