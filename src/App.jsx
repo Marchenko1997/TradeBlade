@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero'
 import './App.css'
 import Numbers from './components/Numbers/Numbers'
 import PastTransactions from "./components/PastTransactions/PastTransactions"
+import AboutCompany from './components/AboutCompany/AboutCompany'
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
       <Container>
         <Hero />
         <Numbers />
-        <PastTransactions/>
+        <PastTransactions />
+        <AboutCompany />
       </Container>
     </>
   );
