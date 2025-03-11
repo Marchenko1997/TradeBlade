@@ -32,6 +32,11 @@ export const ProgressContainer = styled.div`
   background-color: #434f70;
   border-radius: 3px;
   overflow: hidden;
+
+  @media (min-width: 768px) {
+    width: 955px;
+    height: 6px;
+  }
 `;
 
 export const ProgressBar = styled.div`

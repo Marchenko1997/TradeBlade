@@ -14,14 +14,22 @@ export const HeaderContainer = styled.header`
   align-items: center;
 `;
 
+export const HeaderContent = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+`;
+
 export const LogoIcon = styled.div`
-  width: 107.11px;
+  width: 107px;
   height: 52px;
-  left: 10px;
-  top: 0;
   background-image: url("/icons/logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px) {
+    width: 132px;
+    height: 64px;
+  }
 `;
-
-

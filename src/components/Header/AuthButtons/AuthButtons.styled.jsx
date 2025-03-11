@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const ButtonContainer = styled.div`
     display: flex;
     gap: 16px;
+
+    @media (min-width: 768px) {
+      gap: 12px;
+    }
 `
 export const RegisterButton = styled.button`
   width: 163.5px;
@@ -23,6 +27,15 @@ export const RegisterButton = styled.button`
     color: var(--primary-cyan);
     border: 2px solid rgb(87, 225, 255);
   }
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    line-height: 1.3;
+    width: 146px;
+    height: 42px;
+  }
 `;
 
 export const EnterButton = styled.button`
@@ -38,6 +51,15 @@ export const EnterButton = styled.button`
   font-size: 16px;
   font-weight: 500;
   line-height: 1.25;
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    line-height: 1.3;
+    width: 86px;
+    height: 42px;
+  }
 
   &:hover {
     background-color: var(--primary-purple);

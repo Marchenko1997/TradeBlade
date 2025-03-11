@@ -4,6 +4,13 @@ export const TransactionsSection = styled.section`
   position: relative;
   padding: 48px 16px 53px 16px;
   background-color: var(--dark-background);
+
+  @media (min-width: 768px) {
+    padding-top: 96px;
+    padding-bottom: 118px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 `;
 
 export const TransactionsContainer = styled.div`
@@ -13,15 +20,16 @@ export const TransactionsContainer = styled.div`
 export const TransactionsTitle = styled.h2`
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 700;
-  font-size: 44px;
-  line-height: 56px;
+  font-size: 28px;
+  line-height: 36px;
   text-transform: uppercase;
   /* padding-top: 96px; */
   color: var(--white);
 
-  @media (max-width: 768px) {
-    font-size: 28px;
-    line-height: 36px;
+  @media (min-width: 768px) {
+    font-size: 44px;
+    line-height: 56px;
+    margin-bottom: 11px;
   }
 `;
 
@@ -30,6 +38,10 @@ export const TransactionsOnline = styled.div`
   gap: 5px;
   align-items: center;
   margin-top: 2px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 72px;
+  }
 `;
 
 export const OnlineText = styled.p`

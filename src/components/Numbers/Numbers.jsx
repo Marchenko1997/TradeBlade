@@ -3,10 +3,11 @@ import {
   Rectangle,
   NumbersContainer,
   NumbersTitle,
-  NumbersGrid, // Используем CSS Grid
+  NumbersGrid,
   NumbersItem,
   NumbersItemTitle,
   NumbersItemInfo,
+  MobileBr,
 } from "./Numbers.styled";
 
 const Numbers = () => {
@@ -19,27 +20,24 @@ const Numbers = () => {
           <h5>Cентябрь 2022</h5>
         </NumbersTitle>
 
-        {/* Используем Grid */}
         <NumbersGrid>
           <NumbersItem data-aos="fade-up">
             <NumbersItemTitle>
-              Торговой <br />
-              прибыли
+              Торговой <MobileBr /> прибыли
             </NumbersItemTitle>
             <NumbersItemInfo>2756%</NumbersItemInfo>
           </NumbersItem>
 
           <NumbersItem data-aos="fade-down">
             <NumbersItemTitle>
-              Фьючерсных <br /> и спотовых сделок
+              Фьючерсных <MobileBr /> и спотовых сделок
             </NumbersItemTitle>
             <NumbersItemInfo>67</NumbersItemInfo>
           </NumbersItem>
 
           <NumbersItem data-aos="fade-up" style={{ gridColumn: "span 2" }}>
-            {/* Этот элемент занимает 2 колонки */}
             <NumbersItemTitle>
-              Прибыль <br />
+              Прибыль <MobileBr />
               подписчиков
             </NumbersItemTitle>
             <NumbersItemInfo>375000</NumbersItemInfo>

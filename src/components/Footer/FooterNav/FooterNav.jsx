@@ -13,7 +13,7 @@ const FooterNav = () => {
       <FooterMenu>
         {links.map((link) => (
           <FooterMenuItem key={link.id}>
-            <li href={link.url}>{link.name}</li>{" "}
+            <a href={link.url}>{link.name}</a>{" "}
           </FooterMenuItem>
         ))}
       </FooterMenu>

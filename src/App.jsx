@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Header />
-      <Container>
+      {/* <Container> */}
         <Hero />
         <Numbers />
         <PastTransactions />
@@ -23,7 +23,7 @@ function App() {
         <Tarifs />
         <FAQ />
         <Footer />
-      </Container>
+      {/* </Container> */}
     </>
   );
 }

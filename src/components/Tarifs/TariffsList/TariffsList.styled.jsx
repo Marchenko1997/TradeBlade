@@ -15,6 +15,12 @@ export const StandartTariff = styled.div`
   flex-direction: column;
   transition: background-color, 0.2s;
 
+  @media (min-width: 768px) {
+    height: 556px;
+    padding: 24px;
+
+  }
+
   h3 {
     font-size: 20px;
     font-weight: 500;
@@ -22,7 +28,13 @@ export const StandartTariff = styled.div`
     letter-spacing: -1.28px;
     margin-bottom: 0;
     text-transform: uppercase;
+
+    @media (min-width: 768px) {
+      font-size: 32px;
+    }
   }
+
+
 `;
 
 export const TariffStandartDescr = styled.ul`

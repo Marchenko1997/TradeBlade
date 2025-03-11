@@ -9,6 +9,13 @@ export const TariffsBtnsContainer = styled.div`
   margin-bottom: 24px;
   width: 100%;
   margin-top: 28px;
+
+  @media (min-width: 768px) {
+    margin-top: 44px;
+    width: 413px;
+    height: 52px;
+    margin-bottom: 44px;
+  }
 `;
 
 export const SpotBtn = styled.button`
@@ -31,6 +38,10 @@ export const SpotBtn = styled.button`
     color: var(--primary-cyan);
     border: 2px solid rgb(87, 225, 255);
   }
+
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
 `;
 
 export const FeaturedBtn = styled.button`
@@ -48,4 +59,8 @@ export const FeaturedBtn = styled.button`
   text-transform: uppercase;
   flex-basis: 50%;
   text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
 `;

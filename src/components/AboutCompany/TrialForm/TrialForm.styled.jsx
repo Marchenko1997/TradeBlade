@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const TrialFormContainer = styled.div`
-margin-top: 40px;
+  margin-top: 40px;
   padding: 16px;
   background-color: var(--primary-purple);
   border-radius: 4px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
+
+  @media (min-width: 768px) {
+    padding: 32px 64px;
+    max-width: 630px;
+  }
 `;
 
 export const FormTitle = styled.h3`
@@ -22,10 +22,18 @@ export const FormTitle = styled.h3`
   letter-spacing: -0.8px;
   margin-bottom: 20px;
   color: var(--white);
+
+  @media (min-width: 768px) {
+    font-size: 28px;
+    line-height: 1.28;
+    letter-spacing: -1.12px;
+    margin-bottom: 32px;
+  }
 `;
 
 export const Form = styled.form`
   width: 100%;
+  position: relative;
 `;
 export const TrialInput = styled.input`
   width: 100%;
@@ -40,9 +48,17 @@ export const TrialInput = styled.input`
   opacity: 0.34;
   padding: 15px 16px;
   margin-bottom: 8px;
-  -webkit-transition: opacity, 0.2s;
   transition: opacity, 0.2s;
   text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    width: 500px;
+    font-size: 16px;
+    line-height: 1.3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
 `;
 
 export const StartBtn = styled.button`
@@ -65,5 +81,11 @@ export const StartBtn = styled.button`
     background-color: var(--primary-purple);
     color: var(--primary-cyan);
     border: 2px solid rgb(87, 225, 255);
+  }
+
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    right: 4px;
+    width: auto;
   }
 `;

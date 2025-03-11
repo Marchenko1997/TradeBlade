@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const FooterNavContainer = styled.nav`
   display: flex;
   gap: 74px;
+
 `;
 
 export const FooterTitle = styled.h4`
@@ -17,6 +18,10 @@ export const FooterMenu = styled.ul`
   flex-direction: column;
   gap: 16px;
   flex-grow: 1;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
 
 `;
 

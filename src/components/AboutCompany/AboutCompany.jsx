@@ -5,6 +5,7 @@ import {
   AboutParagraphFirst,
   MainIformation,
   AboutParagraphTwo,
+  AboutUsContainer,
 } from "./AboutCompany.styled";
 import TrialForm from "./TrialForm/TrialForm";
 
@@ -12,23 +13,26 @@ const AboutCompany = () => {
   return (
     <AboutUsSection>
       <Rectangle />
-      <MainIformation>
-        {" "}
+      <AboutUsContainer>
         <AboutUsTitle> О компании</AboutUsTitle>
-        <AboutParagraphFirst>
-          Мы опытная команда, для которой трейдинг – профессия. TradeBlade
-          является авторизованным официальным брокером биржи Binance.
-        </AboutParagraphFirst>
-        <AboutParagraphTwo>
+        <MainIformation>
           {" "}
-          Он представляет пользователям множество преимуществ, таких как более
-          високая скорость синхронизации API и возможность создать учетную
-          запись Binance через платформу TradeBlade всего в 1 клик.
-        </AboutParagraphTwo>
-          </MainIformation>
-          <TrialForm />
+          <AboutParagraphFirst>
+            Мы опытная команда, для которой трейдинг – профессия. TradeBlade
+            является авторизованным официальным брокером биржи Binance.
+          </AboutParagraphFirst>
+          <AboutParagraphTwo>
+            {" "}
+            Он представляет пользователям множество преимуществ, таких как более
+            високая скорость синхронизации API и возможность создать учетную
+            запись Binance через платформу TradeBlade всего в 1 клик.
+          </AboutParagraphTwo>
+        </MainIformation>
+      </AboutUsContainer>
+
+      <TrialForm />
     </AboutUsSection>
   );
-}
+};
 
-export default AboutCompany
+export default AboutCompany;

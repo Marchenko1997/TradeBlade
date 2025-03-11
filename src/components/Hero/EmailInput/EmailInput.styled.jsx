@@ -1,15 +1,21 @@
 import styled from "styled-components";
 
 export const InputContainer = styled.div`
-  position: relative; 
+  position: relative;
   display: flex;
   align-items: center;
-  width: 343px;
-  margin-top: 92px;
+  /* width: 343px; */
+  
+  margin-top: 132px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 84px;
+    max-width: 500px;
+  }
 `;
 
 export const Input = styled.input`
-  width: 100%; 
+  width: 100%;
   height: 50px;
   border-radius: 4px;
   background-color: #201a4f;
@@ -21,6 +27,17 @@ export const Input = styled.input`
   text-transform: uppercase;
   padding: 15px 16px;
   border: none;
+
+
+  @media screen and (min-width: 768px) {
+    width: 500px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 1.3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
 `;
 
 export const StartBtn = styled.button`
@@ -43,6 +60,13 @@ export const StartBtn = styled.button`
     color: var(--primary-cyan);
     border: 2px solid rgb(87, 225, 255);
   }
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 1.3;
+    width: 109px;
+    height: 52px;
+  }
 `;
 
 export const FreeTrial = styled.p`
@@ -53,4 +77,5 @@ export const FreeTrial = styled.p`
   color: var(--white);
   opacity: 0.3;
   margin-top: 12px;
+  padding-bottom: 15px;
 `;

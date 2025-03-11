@@ -5,6 +5,11 @@ export const NumbersSection = styled.section`
   position: relative;
   padding-top: 24px;
   padding-bottom: 48px;
+
+  @media (min-width: 768px) {
+    padding-top: 90px;
+    padding-bottom: 61px;
+  }
 `;
 
 export const Rectangle = styled.div`
@@ -21,22 +26,34 @@ export const Rectangle = styled.div`
 export const NumbersContainer = styled.div`
   width: 100%;
   max-width: 1328px;
-  padding: 0 26px;
-  padding-left: 16px;
+  padding: 0 24px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 32px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    gap: 153px;
+
+  }
 `;
+
+export const MobileBr = styled.br`
+  @media (min-width: 768px) {
+    display: none;
+  }
+`;
+
 
 export const NumbersGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  gap: 72px; 
+  grid-template-columns: repeat(2, 1fr);
+  gap: 72px;
 
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-    gap: 40px;
+  @media (min-width: 768px) {
+    display: flex;
+    gap: 129px;
   }
 `;
 

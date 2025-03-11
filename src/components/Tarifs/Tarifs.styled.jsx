@@ -14,10 +14,17 @@ export const SectionContainer = styled.div`
 `;
 
 export const TarifsTitle = styled.h2`
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 1.27;
-    letter-spacing: -1.12px;
-    text-transform: uppercase;
-    color: var(--white)
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: -1.12px;
+  text-transform: uppercase;
+  color: var(--white) ;
+  
+  @media (min-width: 768px) {
+    margin-bottom: 44px;
+    font-size: 44px;
+    letter-spacing: -1.76px;
+  }
+  
 `;

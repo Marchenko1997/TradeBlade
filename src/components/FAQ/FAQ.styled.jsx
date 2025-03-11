@@ -21,6 +21,12 @@ export const FAQTitle = styled.h2`
   text-transform: uppercase;
   color: var(--dark-background);
   margin-bottom: 40px;
+
+  @media (min-width: 768px) {
+    font-size: 44px;
+    letter-spacing: -1.76px;
+    margin-bottom: 64px;
+  }
 `;
 
 export const FAQItem = styled.div`
@@ -48,7 +54,12 @@ export const FAQItemContent = styled.div`
   justify-content: space-between;
   cursor: pointer;
 
-  /* ✅ Теперь управляем стилем через класс "open" */
+  @media (min-width: 768px) {
+    font-size: 24px;
+    letter-spacing: -1.12px;
+  }
+
+
   &.open {
     background-color: var(--primary-purple);
     color: var(--white);
