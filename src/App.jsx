@@ -7,6 +7,7 @@ import PastTransactions from "./components/PastTransactions/PastTransactions"
 import AboutCompany from './components/AboutCompany/AboutCompany'
 import Tarifs from './components/Tarifs/Tarifs'
 import FAQ from './components/FAQ/FAQ'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <AboutCompany />
         <Tarifs />
         <FAQ />
+        <Footer />
       </Container>
     </>
   );
