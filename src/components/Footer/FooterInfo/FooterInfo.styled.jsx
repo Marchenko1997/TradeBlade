@@ -23,6 +23,7 @@ export const FooterInfoContainer = styled.div`
     top: 0;
     margin-top: -20px;
     margin-left: -24px;
+    opacity: 0.3;
 
     @media (min-width: 768px) {
       height: calc(100% + 68px);

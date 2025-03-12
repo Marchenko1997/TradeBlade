@@ -1,8 +1,5 @@
 import hero from "/hero.png";
-import {
-  CryptoContainer,
- 
-} from "./ETHUSDT.styled";
+import { CryptoContainer } from "./ETHUSDT.styled";
 
 const ETHUSDT = () => {
   return (

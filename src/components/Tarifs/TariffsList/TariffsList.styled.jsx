@@ -17,7 +17,8 @@ export const StandartTariff = styled.div`
   flex-direction: column;
   transition: background-color, 0.2s;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: var(--primary-purple);
   }
 
