@@ -29,7 +29,7 @@ export const NavigationItem = styled(Link)`
   }
 
   &:hover {
-    color: #d9d9d9;
+    color: var(--primary-cyan);
   }
 
   &.active {

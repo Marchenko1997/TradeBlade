@@ -11,7 +11,7 @@ import TrialForm from "./TrialForm/TrialForm";
 
 const AboutCompany = () => {
   return (
-    <AboutUsSection>
+    <AboutUsSection id="about">
       <Rectangle />
       <AboutUsContainer>
         <AboutUsTitle> О компании</AboutUsTitle>

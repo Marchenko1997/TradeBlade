@@ -12,7 +12,7 @@ import {
 
 const Numbers = () => {
   return (
-    <NumbersSection>
+    <NumbersSection id="digits">
       <Rectangle />
       <NumbersContainer>
         <NumbersTitle data-aos="fade-down">

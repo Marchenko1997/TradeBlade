@@ -4,7 +4,7 @@ import TariffsList from "./TariffsList/TariffsList";
 
 const Tarifs = () => {
   return (
-    <TarifsSection>
+    <TarifsSection id="tarifs">
       <SectionContainer>
         <TarifsTitle>Тарифы</TarifsTitle>
               <TariffsBtns />

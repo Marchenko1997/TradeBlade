@@ -10,7 +10,7 @@ import {
 
 const PastTransactions = () => {
   return (
-    <TransactionsSection>
+    <TransactionsSection id="transactions">
       <TransactionsContainer>
         <TransactionsTitle>Прошедшие сделки</TransactionsTitle>
         <TransactionsOnline>

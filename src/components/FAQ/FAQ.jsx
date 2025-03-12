@@ -17,7 +17,7 @@ const FAQ = () => {
   };
 
   return (
-    <FAQSection>
+    <FAQSection id="faq">
       <FAQContainer>
         <FAQTitle>Часто задаваемые вопросы</FAQTitle>
         <div>

@@ -17,19 +17,23 @@ export const HeaderContainer = styled.header`
 export const HeaderContent = styled.div`
   display: flex;
   width: 100%;
+  max-width: 1328px;
+  padding: 0 24px;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
 `;
 
 export const LogoIcon = styled.div`
-  width: 107px;
-  height: 52px;
-  background-image: url("/icons/logo.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  img {
+    width: 107px;
+    height: 52px;
+  }
 
   @media screen and (min-width: 768px) {
-    width: 132px;
-    height: 64px;
+    img {
+      width: 132px;
+      height: 64px;
+    }
   }
 `;

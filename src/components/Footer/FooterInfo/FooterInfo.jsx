@@ -7,7 +7,9 @@ import {
 const FooterInfo = () => {
   return (
     <FooterInfoContainer>
-      <LogoIcon />
+      <LogoIcon>
+        <img src="/icons/logo.svg" alt="logo" />
+      </LogoIcon>
       <FooterInfoText>© 2022 TradeBlade. All rights reserved</FooterInfoText>
     </FooterInfoContainer>
   );

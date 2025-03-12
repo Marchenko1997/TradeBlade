@@ -7,6 +7,11 @@ export const FooterInfoContainer = styled.div`
   justify-content: space-between;
   gap: 80px;
 
+  @media (min-width: 768px) {
+    gap: 180px;
+    justify-content: initial;
+  }
+
   ::before {
     content: "";
     width: calc(100% + 48px);
@@ -18,15 +23,20 @@ export const FooterInfoContainer = styled.div`
     top: 0;
     margin-top: -20px;
     margin-left: -24px;
+
+    @media (min-width: 768px) {
+      height: calc(100% + 68px);
+      width: 1px;
+      margin-top: -27px;
+    }
   }
 `;
 
 export const LogoIcon = styled.div`
-  width: 165px;
-  height: 80.1px;
-  background-image: url("/icons/logo.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  img {
+    width: 165px;
+    height: auto;
+  }
 `;
 
 export const FooterInfoText = styled.p`
@@ -35,4 +45,3 @@ export const FooterInfoText = styled.p`
   line-height: 1.42;
   opacity: 0.5;
 `;
-

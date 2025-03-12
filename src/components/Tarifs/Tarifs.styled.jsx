@@ -9,7 +9,7 @@ export const TarifsSection = styled.section`
 export const SectionContainer = styled.div`
   width: 100%;
   max-width: 1328px;
-  padding: 0 16px;
+  padding: 0 24px;
   margin: 0 auto;
 `;
 

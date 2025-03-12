@@ -4,6 +4,11 @@ export const FooterNavContainer = styled.nav`
   display: flex;
   gap: 74px;
 
+  @media (min-width: 768px) {
+    flex-direction: column;
+    gap: 224px;
+  }
+
 `;
 
 export const FooterTitle = styled.h4`
@@ -11,6 +16,11 @@ export const FooterTitle = styled.h4`
   line-height: 1.42;
   opacity: 0.4;
   max-width: 107px;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    max-width: none;
+  }
 `;
 
 export const FooterMenu = styled.ul`
@@ -33,5 +43,7 @@ export const FooterMenuItem = styled.li`
   color: var(--white);
   transition: color 0.2s;
   opacity: 0.6;
+  text-transform: uppercase;
+
 `;
 

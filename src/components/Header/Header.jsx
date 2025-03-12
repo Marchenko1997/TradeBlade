@@ -1,5 +1,5 @@
-import { HeaderContainer, LogoIcon, HeaderContent } from "./Header.styled"
-import BurgerBtn from "./BurgerBtn/BurgerBtn"
+import { HeaderContainer, LogoIcon, HeaderContent } from "./Header.styled";
+import BurgerBtn from "./BurgerBtn/BurgerBtn";
 import { useState, useEffect } from "react";
 import MobileModal from "./MobileModal/MobileModal";
 import Navigation from "./Navigation/Navigation";
@@ -20,7 +20,9 @@ const Header = () => {
   return (
     <HeaderContainer>
       <HeaderContent>
-        <LogoIcon />
+        <LogoIcon>
+          <img src="/icons/logo.svg" alt="logo" />
+        </LogoIcon>
         {isDesktop ? (
           <>
             <Navigation />
