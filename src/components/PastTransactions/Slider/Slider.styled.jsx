@@ -18,8 +18,8 @@ export const StyledSlider = styled(Slider)`
 
   .slick-track {
     display: flex;
-    gap: 8px; 
-    width: auto ;
+    gap: 8px;
+    width: auto;
 
     @media (min-width: 768px) {
       gap: 20px;
@@ -47,5 +47,5 @@ export const ProgressContainer = styled.div`
 export const ProgressBar = styled.div`
   height: 100%;
   background-color: #6073a1;
-  transition: width 0.3s ease-in-out;
+  transition: width 0.6s ease-in-out; 
 `;

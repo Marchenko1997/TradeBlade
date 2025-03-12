@@ -1,5 +1,4 @@
 import Header from './components/Header/Header'
-import Container from './components/Common/Container/Container'
 import Hero from './components/Hero/Hero'
 import './App.css'
 import Numbers from './components/Numbers/Numbers'
@@ -15,7 +14,6 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Container> */}
         <Hero />
         <Numbers />
         <PastTransactions />
@@ -23,7 +21,6 @@ function App() {
         <Tarifs />
         <FAQ />
         <Footer />
-      {/* </Container> */}
     </>
   );
 }

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TransactionsSection = styled.section`
   position: relative;
-  padding: 48px 16px 53px 16px;
+  padding: 48px 16px 68px 16px;
   background-color: var(--dark-background);
 
   @media (min-width: 768px) {
