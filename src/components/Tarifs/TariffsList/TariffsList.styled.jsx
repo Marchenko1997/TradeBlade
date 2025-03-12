@@ -4,8 +4,8 @@ export const TarrifsUL = styled.div`
   display: flex;
   gap: 20px 20px;
   flex-wrap: wrap;
-
-
+  opacity: 0;
+  animation: slideInLeft 1s ease-in-out forwards;
 `;
 
 export const StandartTariff = styled.div`

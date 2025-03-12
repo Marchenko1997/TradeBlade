@@ -8,7 +8,7 @@ export const FooterInfoContainer = styled.div`
   gap: 80px;
 
   @media (min-width: 768px) {
-    gap: 180px;
+    gap: 142px;
     justify-content: initial;
   }
 

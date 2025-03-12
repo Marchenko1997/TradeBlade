@@ -19,13 +19,13 @@ export const TarifsTitle = styled.h2`
   line-height: 1.27;
   letter-spacing: -1.12px;
   text-transform: uppercase;
-  color: var(--white) ;
-  
+  color: var(--white);
+  opacity: 0;
+  animation: slideIn 1s ease-in-out forwards; 
+
   @media (min-width: 768px) {
     margin-bottom: 44px;
     font-size: 44px;
     letter-spacing: -1.76px;
-
   }
-  
 `;

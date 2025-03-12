@@ -7,11 +7,15 @@ export const ModalContainer = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw; 
-  height: 100vh; 
+  width: 100vw;
+  height: 100vh;
   background-color: var(--primary-purple);
-  padding: 16px;
-  z-index: 999; 
+  padding: 84px 16px 16px;
+  z-index: 10;
+
+  @media (min-width: 768px){
+    display: none;
+  }
 `;
 
 export const CloseButton = styled.button`

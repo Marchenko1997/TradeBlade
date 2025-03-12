@@ -6,6 +6,10 @@ export const MainContainer = styled.main`
   padding: 40px 16px;
   background-color: var(--dark-background);
   margin-top: 52px;
+
+  @media (min-width: 764px) {
+    padding: 134px 16px;
+  }
 `;
 
 export const HeroContainer = styled.div`

@@ -12,16 +12,21 @@ export const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (min-width: 768px){
+    height: auto;
+  }
 `;
 
 export const HeaderContent = styled.div`
   display: flex;
   width: 100%;
   max-width: 1328px;
-  padding: 0 24px;
+  padding: 0;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
+
 `;
 
 export const LogoIcon = styled.div`
@@ -33,7 +38,7 @@ export const LogoIcon = styled.div`
   @media screen and (min-width: 768px) {
     img {
       width: 132px;
-      height: 64px;
+      height: auto;
     }
   }
 `;

@@ -7,6 +7,8 @@ export const TrialFormContainer = styled.div`
   border-radius: 4px;
   display: flex;
   flex-direction: column;
+  animation: slideIn 1s ease-out forwards;
+  animation-delay: 0.5s;
 
   @media (min-width: 768px) {
     padding: 32px 64px;

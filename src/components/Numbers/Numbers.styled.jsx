@@ -21,6 +21,13 @@ export const Rectangle = styled.div`
   height: 24px;
   width: 70%;
   clip-path: polygon(0% 0%, 90% 0%, 95% 100%, 0% 100%);
+
+  @media (min-width: 768px) {
+    height: 92px;
+    margin-top: -56px;
+    width: 50%;
+    clip-path: polygon(0% 0%, 85% 0%, 93% 60%, 100% 100%, 0% 100%);
+  }
 `;
 
 export const NumbersContainer = styled.div`

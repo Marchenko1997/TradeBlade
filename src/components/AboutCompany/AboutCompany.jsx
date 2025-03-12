@@ -14,9 +14,8 @@ const AboutCompany = () => {
     <AboutUsSection id="about">
       <Rectangle />
       <AboutUsContainer>
-        <AboutUsTitle> О компании</AboutUsTitle>
         <MainIformation>
-          {" "}
+          <AboutUsTitle> О компании</AboutUsTitle>
           <AboutParagraphFirst>
             Мы опытная команда, для которой трейдинг – профессия. TradeBlade
             является авторизованным официальным брокером биржи Binance.
@@ -28,9 +27,8 @@ const AboutCompany = () => {
             запись Binance через платформу TradeBlade всего в 1 клик.
           </AboutParagraphTwo>
         </MainIformation>
+        <TrialForm />
       </AboutUsContainer>
-
-      <TrialForm />
     </AboutUsSection>
   );
 };

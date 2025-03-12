@@ -9,6 +9,8 @@ export const TariffsBtnsContainer = styled.div`
   margin-bottom: 24px;
   width: 100%;
   margin-top: 28px;
+  opacity: 0;
+  animation: slideInRight 1s ease-in-out forwards;
 
   @media (min-width: 768px) {
     margin-top: 44px;
