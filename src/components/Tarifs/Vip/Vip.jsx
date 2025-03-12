@@ -2,11 +2,6 @@ import {
   VipItem,
   TariffVipDescr,
   TariffVipDescrItem,
-  TariffsPriceBlock,
-  TrariffPrice,
-  TariffsCardTerms,
-  TarrifsCardBtn,
-  ButtonTry,
 } from "./Vip.styled.jsx";
 
 const Vip = () => {
@@ -27,24 +22,6 @@ const Vip = () => {
           <TariffVipDescrItem>
             Наш авторский курс по трейдингу
           </TariffVipDescrItem>
-          <TariffsPriceBlock>
-            <TrariffPrice>
-              $585
-              <span>-35%</span>
-            </TrariffPrice>
-            <TariffsCardTerms>
-              <p>12 месяцев</p>
-              <TarrifsCardBtn>
-                <svg>
-                  <use xlinkHref="/sprite.svg#icon-arrowDown"></use>
-                </svg>
-              </TarrifsCardBtn>
-            </TariffsCardTerms>
-          </TariffsPriceBlock>
-          <ButtonTry>
-            Попробовать
-            <span>5 дней бесплатно</span>
-          </ButtonTry>
         </TariffVipDescr>
       </VipItem>
     </>

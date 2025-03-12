@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
-export const TarrifsUL = styled.ul`
+export const TarrifsUL = styled.div`
   display: flex;
   gap: 20px 20px;
   flex-wrap: wrap;
+
+
 `;
 
 export const StandartTariff = styled.div`
@@ -15,10 +17,15 @@ export const StandartTariff = styled.div`
   flex-direction: column;
   transition: background-color, 0.2s;
 
+  &:hover {
+    background-color: var(--primary-purple);
+  }
+
   @media (min-width: 768px) {
     height: 556px;
+    width: 413px;
     padding: 24px;
-
+    justify-content: space-between;
   }
 
   h3 {
@@ -33,8 +40,6 @@ export const StandartTariff = styled.div`
       font-size: 32px;
     }
   }
-
-
 `;
 
 export const TariffStandartDescr = styled.ul`

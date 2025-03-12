@@ -25,6 +25,7 @@ export const TarifsTitle = styled.h2`
     margin-bottom: 44px;
     font-size: 44px;
     letter-spacing: -1.76px;
+
   }
   
 `;
