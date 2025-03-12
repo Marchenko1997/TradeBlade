@@ -8,6 +8,8 @@ import {
   FAQItemContent,
   EmbeddedContent,
 } from "./FAQ.styled";
+import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowUp } from "react-icons/io";
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -28,13 +30,7 @@ const FAQ = () => {
                 onClick={() => toggleFAQ(index)}
               >
                 {item.question}
-                <svg>
-                  <use
-                    xlinkHref={`/sprite.svg#${
-                      openIndex === index ? "icon-arrowUp" : "icon-arrowDown"
-                    }`}
-                  ></use>
-                </svg>
+                {openIndex === index ? <IoIosArrowUp /> : <IoIosArrowDown />}
               </FAQItemContent>
               {openIndex === index && (
                 <EmbeddedContent>{item.answer}</EmbeddedContent>

@@ -59,7 +59,6 @@ export const FAQItemContent = styled.div`
     letter-spacing: -1.12px;
   }
 
-
   &.open {
     background-color: var(--primary-purple);
     color: var(--white);
@@ -68,7 +67,7 @@ export const FAQItemContent = styled.div`
   svg {
     width: 24px;
     height: 24px;
-    stroke: var(--dark-background);
+    stroke: var(--dark-background) ;
     fill: var(--dark-background);
   }
 

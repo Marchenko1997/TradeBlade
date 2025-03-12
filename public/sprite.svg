@@ -1,10 +1,10 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-arrowDown" viewBox="0 0 32 32">
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8667" d="M24 12.667l-8 8-8-8"></path>
+  <path fill="none" stroke="currentColor" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8667" d="M24 12.667l-8 8-8-8"></path>
 </symbol>
 <symbol id="icon-arrowUp" viewBox="0 0 32 32">
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8667" d="M24 19.333l-8-8-8 8"></path>
+  <path fill="none" stroke="currentColor" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8667" d="M24 19.333l-8-8-8 8"></path>
 </symbol>
 <symbol id="icon-burgermenu" viewBox="0 0 32 32">
 <path fill="#e7f7f8" style="fill: var(--color2, #e7f7f8)" d="M4.39 9.33c0-0.52 0.42-0.94 0.94-0.94h21.33c0.52 0 0.94 0.42 0.94 0.94 0 0.51-0.42 0.93-0.94 0.93h-21.33c-0.52 0-0.94-0.42-0.94-0.93z"></path>
