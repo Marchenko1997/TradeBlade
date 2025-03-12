@@ -6,19 +6,24 @@ export const SliderContainer = styled.div`
   width: 100%;
   margin: auto;
   padding: 40px 0;
-  overflow: hidden; 
+  overflow: hidden;
 `;
 
 export const StyledSlider = styled(Slider)`
   .slick-slide {
-    margin-right: 8px; 
     display: flex;
     justify-content: center;
+    width: auto !important;
   }
 
   .slick-track {
     display: flex;
     gap: 8px; 
+    width: auto ;
+
+    @media (min-width: 768px) {
+      gap: 20px;
+    }
   }
 `;
 

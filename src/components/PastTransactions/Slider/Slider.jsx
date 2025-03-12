@@ -25,17 +25,11 @@ const CustomSlider = () => {
     arrows: false,
     beforeChange: (current, next) => setCurrentSlide(next),
     responsive: [
+    
       {
-        breakpoint: 1024,
+        breakpoint: 768,
         settings: {
-          slidesToShow: 2.5,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1.5,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
