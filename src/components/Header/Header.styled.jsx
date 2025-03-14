@@ -13,8 +13,13 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
 
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     height: auto;
+    width: 768px;
+  }
+
+  @media (min-width: 1280px) {
+    width: 100%;
   }
 `;
 
@@ -26,7 +31,6 @@ export const HeaderContent = styled.div`
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-
 `;
 
 export const LogoIcon = styled.div`

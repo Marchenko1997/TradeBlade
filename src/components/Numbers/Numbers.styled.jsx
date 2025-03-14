@@ -39,10 +39,10 @@ export const NumbersContainer = styled.div`
   flex-direction: column;
   gap: 32px;
 
-  @media (min-width: 768px) {
+
+  @media (min-width: 1024px) {
     flex-direction: row;
     gap: 153px;
-
   }
 `;
 

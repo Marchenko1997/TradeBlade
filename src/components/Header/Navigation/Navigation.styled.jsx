@@ -6,9 +6,9 @@ export const NavigationList = styled.ul`
   flex-direction: column;
   gap: 32px;
 
-  @media (min-width: 768px) {
+ 
+  @media (min-width: 1024px) {
     flex-direction: row;
-
   }
 `;
 

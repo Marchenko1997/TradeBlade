@@ -6,11 +6,11 @@ import Navigation from "./Navigation/Navigation";
 import AuthButtons from "./AuthButtons/AuthButtons";
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768);
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsDesktop(window.innerWidth >= 768);
+      setIsDesktop(window.innerWidth >= 1024);
     };
 
     window.addEventListener("resize", handleResize);
