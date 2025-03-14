@@ -42,6 +42,9 @@ export const AboutUsContainer = styled.div`
 
   @media (min-width: 768px) {
     gap: 237px;
+ 
+  }
+  @media (min-width: 1280px) {
     display: flex;
   }
 `;
