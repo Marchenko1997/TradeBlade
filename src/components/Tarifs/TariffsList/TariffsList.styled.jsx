@@ -6,7 +6,12 @@ export const TarrifsUL = styled.div`
   flex-wrap: wrap;
   opacity: 0;
   animation: slideInLeft 1s ease-in-out forwards;
+
+  @media (min-width: 768px) {
+  flex-wrap: nowrap;
+  }
 `;
+
 
 export const StandartTariff = styled.div`
   border-radius: 8px;
@@ -24,9 +29,13 @@ export const StandartTariff = styled.div`
 
   @media (min-width: 768px) {
     height: 556px;
-    width: 413px;
+    width: 340px;
     padding: 24px;
     justify-content: space-between;
+  }
+
+  @media (min-width: 1024px) {
+    width: 413px;
   }
 
   h3 {

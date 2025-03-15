@@ -69,8 +69,12 @@ export const ButtonTry = styled.button`
   @media (min-width: 768px) {
     font-size: 16px;
     line-height: 1.3;
-    width: 365px;
+    width: initial;
     height: 52px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 365px;
   }
 
   &:hover {
